@@ -13,7 +13,6 @@ class FrenchDeck:
     def __getitem__(self, position):
         return self._cards[position]
     def __str__(self):
-        return f'Card{Card}{self.suits}'
+        return f'Card{self._cards}'
 deck = FrenchDeck
 
-print(deck)
